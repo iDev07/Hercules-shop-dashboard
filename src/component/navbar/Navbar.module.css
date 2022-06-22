@@ -1,0 +1,33 @@
+.Block__Wrapper {
+  background-color: #fff !important;
+  box-shadow: 0px -20px 7px 20px rgb(0 0 0 / 20%),
+    0px -20px 0px 20px rgb(0 0 0 / 14%), 0px -17px 20px 20px rgb(0 0 0 / 12%) !important;
+}
+.ListItem {
+  width: 100% !important;
+  height: 100% !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #444444;
+  line-height: 75px;
+  letter-spacing: -0.01em;
+}
+
+.ListItem img{
+  width: 24px;
+  height: 24px;
+}
+.Wrapper .Wrapper__icon {
+  width: 177px;
+  height: 42px;
+  margin: 18px 40px !important;
+}
+.Typography_Header {
+  width: 100% !important;
+}
+
+.drawer{
+  margin-top: 20px !important;
+}

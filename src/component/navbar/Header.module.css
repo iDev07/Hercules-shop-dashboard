@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100% !important;
+  height: 50px;
+  margin: 14px 0 !important;
+}
+
+.Dropdown {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.navbar__userInfo {
+  width: 13%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar__button{
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  border: none;
+  padding: 0.6em 2.3em;
+  cursor: pointer;
+  font-size: 1em;
+  background-image: linear-gradient(45deg, transparent 50%, red 50%);
+  background-position: 25%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+
+.navbar .navbar__button:hover{
+  color: #ffffff;
+  background-color: red;
+  background-position: 100%;
+}
+
+.navbar__userInfo_userPhoto {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__userInfo_userPhoto > div > button{
+  margin-left: 5px !important;
+}

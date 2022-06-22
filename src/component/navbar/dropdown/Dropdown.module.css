@@ -1,0 +1,10 @@
+.dropdown__avatar{
+    width: 50px !important;
+    height: 50px  !important;
+    margin: 0 !important;
+}
+
+.dropdown__avatar > button{
+    border: 3px solid firebrick !important;
+
+}

@@ -1,0 +1,17 @@
+.css-1nrlq1o-MuiFormControl-root:focus-visible {
+  border: 3px solid rgb(168, 45, 45) !important;
+}
+.css-hrjh4n-MuiInputBase-root .MuiInputBase-input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+body {
+  background-color: #e5e5e5;
+  overflow: auto;
+}
+
+.MuiDataGrid-cell--withRenderer img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}

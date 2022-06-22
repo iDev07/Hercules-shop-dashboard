@@ -1,0 +1,359 @@
+/* .Login {
+  display: flex;
+  font-family: var(--main-font-family);
+  height: 100vh;
+}
+
+
+.logo_block {
+  width: 35%;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_block {
+  width: 100%;
+} */
+/* 
+.main_block header {
+  width: 23%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 40px 0 0;
+}
+
+.main_block header h1 {
+  color: #9a9fa5;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+}
+
+.main_box_body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+.main_box {
+  width: 30%;
+}
+
+.main_block h1,
+.main_block p {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.main_block p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.main_block header a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main_box div button {
+  width: 100%;
+  justify-content: center;
+  background: #fcfcfc;
+  box-shadow: none !important;
+  border: 2px solid #efefef !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.main_box h3 {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+} */
+/* 
+.main_box button {
+  width: 100%;
+  height: 48px;
+
+  background: rgba(42, 133, 255, 0.5);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px; */
+/* identical to box height, or 160% */
+/* 
+  letter-spacing: -0.01em;
+
+  color: rgba(252, 252, 252, 0.75);
+  cursor: pointer;
+} */
+/* 
+.input_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+
+  position: static;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+
+  background: #f4f4f4;
+  border-radius: 5px;
+
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+
+  letter-spacing: -0.01em;
+  color: #6f767e;
+}
+
+.input_body input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+.input_body input::placeholder {
+  color: #6f767e;
+} */
+
+/* @media (min-width: 0) and (max-width: 800.9px) {
+  .Login {
+    flex-direction: column;
+  }
+  .logo_block {
+    width: 100%;
+    background: transparent;
+  }
+
+  .logo_block img {
+    width: 60%;
+    margin-top: 3rem;
+  }
+
+  .main_box {
+    width: 80%;
+  }
+
+  .main_block header {
+    width: 45%;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .main_block header h1 {
+    margin-right: 10px;
+  }
+
+  .main_block header,
+  .main_block header h1 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 800.9px) {
+  .logo_block img {
+    width: 40%;
+  }
+
+  .main_box_body .main_box {
+    width: 50%;
+  }
+
+  .main_block header {
+    width: 40%;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200.9px) {
+  .logo_block {
+    width: 30%;
+  }
+
+  .logo_block img {
+    width: 70%;
+  }
+
+  .main_block {
+    width: 70%;
+  }
+
+  .main_block header{
+      width: 35%;
+  }
+
+  .main_box {
+    width: 50%;
+  }
+} */
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.wrapper img {
+  width: 170px;
+  height: 41.27px;
+  margin-bottom: 30px;
+}
+.inpu1 {
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  width: 296px;
+  background-position-x: 10px;
+  border: none;
+  padding-left: 2.5rem;
+  outline: none;
+  background-position-y: center;
+  height: 48px;
+  margin-bottom: 12px;
+  background-image: url("../../assets/light.png");
+}
+.inpu2 {
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  width: 296px;
+  background-position-x: 10px;
+  border: none;
+  padding-left: 2.5rem;
+  outline: none;
+  background-position-y: center;
+  height: 48px;
+  background-image: url("../../assets/Union.png");
+}
+.Google__Map button {
+  width: 296px;
+  height: 48px;
+  background: #fcfcfc;
+  border: 2px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Google__Map button div {
+  margin-right: 5px !important;
+  padding: 0 !important;
+}
+.Block {
+  text-align: left;
+}
+.Block a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+  float: left;
+  margin-top: 15px;
+  /* identical to box height, or 171% */
+  letter-spacing: -0.01em;
+
+  color: #ff0000;
+}
+.Block input::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #9a9fa5;
+}
+.button {
+  border: none;
+  width: 296px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: rgba(252, 252, 252, 0.75);
+  height: 48px;
+  margin-top: 15px;
+  background: rgba(42, 133, 255, 0.5);
+  border-radius: 5px;
+}
+.Block p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #1a1d1f;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+.wrapper h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  font-size: 48px;
+  color: #1a1d1f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+@media (min-width: 0) and (max-width: 450.9px) {
+  .Block {
+    text-align: center;
+    width: 100%;
+  }
+  .wrapper img {
+    margin-bottom: 20px;
+  }
+  .button {
+    width: 90%;
+  }
+  .wrapper h1 {
+    font-size: 38px;
+  }
+  .inpu2 {
+    width: 90%;
+  }
+  .inpu1 {
+    width: 90%;
+  }
+  .Google__Map button {
+    width: 90%;
+  }
+}

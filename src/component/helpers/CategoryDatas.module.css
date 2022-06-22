@@ -1,0 +1,7 @@
+.load_picture {
+  margin-top: 2rem;
+}
+
+.load_picture:focus {
+  outline: none !important;
+}
